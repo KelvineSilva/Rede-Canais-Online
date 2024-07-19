@@ -1,0 +1,778 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rede Canais Online</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 15px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 0 15px;
+        }
+        .channel-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 20px;
+        }
+        .channel {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            transition: transform 0.3s;
+            text-decoration: none;
+            color: inherit;
+        }
+        .channel img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        .channel:hover {
+            transform: translateY(-5px);
+        }
+        .channel-info {
+            padding: 15px;
+            text-align: center;
+        }
+        .channel-info h2 {
+            margin: 0;
+            font-size: 1.5rem;
+            color: #333;
+        }
+        .channel-info p {
+            margin: 5px 0 0;
+            font-size: 1rem;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Rede Canais Online</h1>
+    </header>
+    <div class="container">
+        <div class="channel-list">
+            <!-- Lista de canais -->
+            <a href="channel1.html" class="channel">
+                <img src="https://logodownload.org/wp-content/uploads/2013/12/sbt-logo-5.png" alt="SBT">
+                <div class="channel-info">
+                    <h2>SBT AO VIVO</h2>
+                    <p>Clique aqui para acessar</p>
+                </div>
+            </a>
+            <a href="channel2.html" class="channel">
+                <img src="https://logodownload.org/wp-content/uploads/2013/12/record-tv-logo-7.png" alt="Record">
+                <div class="channel-info">
+                    <h2>RECORD AO VIVO</h2>
+                    <p>Clique aqui para acessar</p>
+                </div>
+            </a>
+            <a href="channel3.html" class="channel">
+                <img src="https://logodownload.org/wp-content/uploads/2013/12/rede-globo-logo-1-1.png" alt="Globo">
+                <div class="channel-info">
+                    <h2>GLOBO AO VIVO</h2>
+                    <p>Clique aqui para acessar</p>
+                </div>
+            </a>
+            <a href="channel4.html" class="channel">
+                <img src="path/to/your/channel4.jpg" alt="Nome do Canal 4">
+                <div class="channel-info">
+                    <h2>Nome do Canal 4</h2>
+                    <p>Descrição breve do canal 4</p>
+                </div>
+            </a>
+            <a href="channel5.html" class="channel">
+                <img src="path/to/your/channel5.jpg" alt="Nome do Canal 5">
+                <div class="channel-info">
+                    <h2>Nome do Canal 5</h2>
+                    <p>Descrição breve do canal 5</p>
+                </div>
+            </a>
+            <a href="channel6.html" class="channel">
+                <img src="path/to/your/channel6.jpg" alt="Nome do Canal 6">
+                <div class="channel-info">
+                    <h2>Nome do Canal 6</h2>
+                    <p>Descrição breve do canal 6</p>
+                </div>
+            </a>
+            <a href="channel7.html" class="channel">
+                <img src="path/to/your/channel7.jpg" alt="Nome do Canal 7">
+                <div class="channel-info">
+                    <h2>Nome do Canal 7</h2>
+                    <p>Descrição breve do canal 7</p>
+                </div>
+            </a>
+            <a href="channel8.html" class="channel">
+                <img src="path/to/your/channel8.jpg" alt="Nome do Canal 8">
+                <div class="channel-info">
+                    <h2>Nome do Canal 8</h2>
+                    <p>Descrição breve do canal 8</p>
+                </div>
+            </a>
+            <a href="channel9.html" class="channel">
+                <img src="path/to/your/channel9.jpg" alt="Nome do Canal 9">
+                <div class="channel-info">
+                    <h2>Nome do Canal 9</h2>
+                    <p>Descrição breve do canal 9</p>
+                </div>
+            </a>
+            <a href="channel10.html" class="channel">
+                <img src="path/to/your/channel10.jpg" alt="Nome do Canal 10">
+                <div class="channel-info">
+                    <h2>Nome do Canal 10</h2>
+                    <p>Descrição breve do canal 10</p>
+                </div>
+            </a>
+            <a href="channel11.html" class="channel">
+                <img src="path/to/your/channel11.jpg" alt="Nome do Canal 11">
+                <div class="channel-info">
+                    <h2>Nome do Canal 11</h2>
+                    <p>Descrição breve do canal 11</p>
+                </div>
+            </a>
+            <a href="channel12.html" class="channel">
+                <img src="path/to/your/channel12.jpg" alt="Nome do Canal 12">
+                <div class="channel-info">
+                    <h2>Nome do Canal 12</h2>
+                    <p>Descrição breve do canal 12</p>
+                </div>
+            </a>
+            <a href="channel13.html" class="channel">
+                <img src="path/to/your/channel13.jpg" alt="Nome do Canal 13">
+                <div class="channel-info">
+                    <h2>Nome do Canal 13</h2>
+                    <p>Descrição breve do canal 13</p>
+                </div>
+            </a>
+            <a href="channel14.html" class="channel">
+                <img src="path/to/your/channel14.jpg" alt="Nome do Canal 14">
+                <div class="channel-info">
+                    <h2>Nome do Canal 14</h2>
+                    <p>Descrição breve do canal 14</p>
+                </div>
+            </a>
+            <a href="channel15.html" class="channel">
+                <img src="path/to/your/channel15.jpg" alt="Nome do Canal 15">
+                <div class="channel-info">
+                    <h2>Nome do Canal 15</h2>
+                    <p>Descrição breve do canal 15</p>
+                </div>
+            </a>
+            <a href="channel16.html" class="channel">
+                <img src="path/to/your/channel16.jpg" alt="Nome do Canal 16">
+                <div class="channel-info">
+                    <h2>Nome do Canal 16</h2>
+                    <p>Descrição breve do canal 16</p>
+                </div>
+            </a>
+            <a href="channel17.html" class="channel">
+                <img src="path/to/your/channel17.jpg" alt="Nome do Canal 17">
+                <div class="channel-info">
+                    <h2>Nome do Canal 17</h2>
+                    <p>Descrição breve do canal 17</p>
+                </div>
+            </a>
+            <a href="channel18.html" class="channel">
+                <img src="path/to/your/channel18.jpg" alt="Nome do Canal 18">
+                <div class="channel-info">
+                    <h2>Nome do Canal 18</h2>
+                    <p>Descrição breve do canal 18</p>
+                </div>
+            </a>
+            <a href="channel19.html" class="channel">
+                <img src="path/to/your/channel19.jpg" alt="Nome do Canal 19">
+                <div class="channel-info">
+                    <h2>Nome do Canal 19</h2>
+                    <p>Descrição breve do canal 19</p>
+                </div>
+            </a>
+            <a href="channel20.html" class="channel">
+                <img src="path/to/your/channel20.jpg" alt="Nome do Canal 20">
+                <div class="channel-info">
+                    <h2>Nome do Canal 20</h2>
+                    <p>Descrição breve do canal 20</p>
+                </div>
+            </a>
+            <a href="channel21.html" class="channel">
+                <img src="path/to/your/channel21.jpg" alt="Nome do Canal 21">
+                <div class="channel-info">
+                    <h2>Nome do Canal 21</h2>
+                    <p>Descrição breve do canal 21</p>
+                </div>
+            </a>
+            <a href="channel22.html" class="channel">
+                <img src="path/to/your/channel22.jpg" alt="Nome do Canal 22">
+                <div class="channel-info">
+                    <h2>Nome do Canal 22</h2>
+                    <p>Descrição breve do canal 22</p>
+                </div>
+            </a>
+            <a href="channel23.html" class="channel">
+                <img src="path/to/your/channel23.jpg" alt="Nome do Canal 23">
+                <div class="channel-info">
+                    <h2>Nome do Canal 23</h2>
+                    <p>Descrição breve do canal 23</p>
+                </div>
+            </a>
+            <a href="channel24.html" class="channel">
+                <img src="path/to/your/channel24.jpg" alt="Nome do Canal 24">
+                <div class="channel-info">
+                    <h2>Nome do Canal 24</h2>
+                    <p>Descrição breve do canal 24</p>
+                </div>
+            </a>
+            <a href="channel25.html" class="channel">
+                <img src="path/to/your/channel25.jpg" alt="Nome do Canal 25">
+                <div class="channel-info">
+                    <h2>Nome do Canal 25</h2>
+                    <p>Descrição breve do canal 25</p>
+                </div>
+            </a>
+            <a href="channel26.html" class="channel">
+                <img src="path/to/your/channel26.jpg" alt="Nome do Canal 26">
+                <div class="channel-info">
+                    <h2>Nome do Canal 26</h2>
+                    <p>Descrição breve do canal 26</p>
+                </div>
+            </a>
+            <a href="channel27.html" class="channel">
+                <img src="path/to/your/channel27.jpg" alt="Nome do Canal 27">
+                <div class="channel-info">
+                    <h2>Nome do Canal 27</h2>
+                    <p>Descrição breve do canal 27</p>
+                </div>
+            </a>
+            <a href="channel28.html" class="channel">
+                <img src="path/to/your/channel28.jpg" alt="Nome do Canal 28">
+                <div class="channel-info">
+                    <h2>Nome do Canal 28</h2>
+                    <p>Descrição breve do canal 28</p>
+                </div>
+            </a>
+            <a href="channel29.html" class="channel">
+                <img src="path/to/your/channel29.jpg" alt="Nome do Canal 29">
+                <div class="channel-info">
+                    <h2>Nome do Canal 29</h2>
+                    <p>Descrição breve do canal 29</p>
+                </div>
+            </a>
+            <a href="channel30.html" class="channel">
+                <img src="path/to/your/channel30.jpg" alt="Nome do Canal 30">
+                <div class="channel-info">
+                    <h2>Nome do Canal 30</h2>
+                    <p>Descrição breve do canal 30</p>
+                </div>
+            </a>
+            <a href="channel31.html" class="channel">
+                <img src="path/to/your/channel31.jpg" alt="Nome do Canal 31">
+                <div class="channel-info">
+                    <h2>Nome do Canal 31</h2>
+                    <p>Descrição breve do canal 31</p>
+                </div>
+            </a>
+            <a href="channel32.html" class="channel">
+                <img src="path/to/your/channel32.jpg" alt="Nome do Canal 32">
+                <div class="channel-info">
+                    <h2>Nome do Canal 32</h2>
+                    <p>Descrição breve do canal 32</p>
+                </div>
+            </a>
+            <a href="channel33.html" class="channel">
+                <img src="path/to/your/channel33.jpg" alt="Nome do Canal 33">
+                <div class="channel-info">
+                    <h2>Nome do Canal 33</h2>
+                    <p>Descrição breve do canal 33</p>
+                </div>
+            </a>
+            <a href="channel34.html" class="channel">
+                <img src="path/to/your/channel34.jpg" alt="Nome do Canal 34">
+                <div class="channel-info">
+                    <h2>Nome do Canal 34</h2>
+                    <p>Descrição breve do canal 34</p>
+                </div>
+            </a>
+            <a href="channel35.html" class="channel">
+                <img src="path/to/your/channel35.jpg" alt="Nome do Canal 35">
+                <div class="channel-info">
+                    <h2>Nome do Canal 35</h2>
+                    <p>Descrição breve do canal 35</p>
+                </div>
+            </a>
+            <a href="channel36.html" class="channel">
+                <img src="path/to/your/channel36.jpg" alt="Nome do Canal 36">
+                <div class="channel-info">
+                    <h2>Nome do Canal 36</h2>
+                    <p>Descrição breve do canal 36</p>
+                </div>
+            </a>
+            <a href="channel37.html" class="channel">
+                <img src="path/to/your/channel37.jpg" alt="Nome do Canal 37">
+                <div class="channel-info">
+                    <h2>Nome do Canal 37</h2>
+                    <p>Descrição breve do canal 37</p>
+                </div>
+            </a>
+            <a href="channel38.html" class="channel">
+                <img src="path/to/your/channel38.jpg" alt="Nome do Canal 38">
+                <div class="channel-info">
+                    <h2>Nome do Canal 38</h2>
+                    <p>Descrição breve do canal 38</p>
+                </div>
+            </a>
+            <a href="channel39.html" class="channel">
+                <img src="path/to/your/channel39.jpg" alt="Nome do Canal 39">
+                <div class="channel-info">
+                    <h2>Nome do Canal 39</h2>
+                    <p>Descrição breve do canal 39</p>
+                </div>
+            </a>
+            <a href="channel40.html" class="channel">
+                <img src="path/to/your/channel40.jpg" alt="Nome do Canal 40">
+                <div class="channel-info">
+                    <h2>Nome do Canal 40</h2>
+                    <p>Descrição breve do canal 40</p>
+                </div>
+            </a>
+            <a href="channel41.html" class="channel">
+                <img src="path/to/your/channel41.jpg" alt="Nome do Canal 41">
+                <div class="channel-info">
+                    <h2>Nome do Canal 41</h2>
+                    <p>Descrição breve do canal 41</p>
+                </div>
+            </a>
+            <a href="channel42.html" class="channel">
+                <img src="path/to/your/channel42.jpg" alt="Nome do Canal 42">
+                <div class="channel-info">
+                    <h2>Nome do Canal 42</h2>
+                    <p>Descrição breve do canal 42</p>
+                </div>
+            </a>
+            <a href="channel43.html" class="channel">
+                <img src="path/to/your/channel43.jpg" alt="Nome do Canal 43">
+                <div class="channel-info">
+                    <h2>Nome do Canal 43</h2>
+                    <p>Descrição breve do canal 43</p>
+                </div>
+            </a>
+            <a href="channel44.html" class="channel">
+                <img src="path/to/your/channel44.jpg" alt="Nome do Canal 44">
+                <div class="channel-info">
+                    <h2>Nome do Canal 44</h2>
+                    <p>Descrição breve do canal 44</p>
+                </div>
+            </a>
+            <a href="channel45.html" class="channel">
+                <img src="path/to/your/channel45.jpg" alt="Nome do Canal 45">
+                <div class="channel-info">
+                    <h2>Nome do Canal 45</h2>
+                    <p>Descrição breve do canal 45</p>
+                </div>
+            </a>
+            <a href="channel46.html" class="channel">
+                <img src="path/to/your/channel46.jpg" alt="Nome do Canal 46">
+                <div class="channel-info">
+                    <h2>Nome do Canal 46</h2>
+                    <p>Descrição breve do canal 46</p>
+                </div>
+            </a>
+            <a href="channel47.html" class="channel">
+                <img src="path/to/your/channel47.jpg" alt="Nome do Canal 47">
+                <div class="channel-info">
+                    <h2>Nome do Canal 47</h2>
+                    <p>Descrição breve do canal 47</p>
+                </div>
+            </a>
+            <a href="channel48.html" class="channel">
+                <img src="path/to/your/channel48.jpg" alt="Nome do Canal 48">
+                <div class="channel-info">
+                    <h2>Nome do Canal 48</h2>
+                    <p>Descrição breve do canal 48</p>
+                </div>
+            </a>
+            <a href="channel49.html" class="channel">
+                <img src="path/to/your/channel49.jpg" alt="Nome do Canal 49">
+                <div class="channel-info">
+                    <h2>Nome do Canal 49</h2>
+                    <p>Descrição breve do canal 49</p>
+                </div>
+            </a>
+            <a href="channel50.html" class="channel">
+                <img src="path/to/your/channel50.jpg" alt="Nome do Canal 50">
+                <div class="channel-info">
+                    <h2>Nome do Canal 50</h2>
+                    <p>Descrição breve do canal 50</p>
+                </div>
+            </a>
+            <a href="channel51.html" class="channel">
+                <img src="path/to/your/channel51.jpg" alt="Nome do Canal 51">
+                <div class="channel-info">
+                    <h2>Nome do Canal 51</h2>
+                    <p>Descrição breve do canal 51</p>
+                </div>
+            </a>
+            <a href="channel52.html" class="channel">
+                <img src="path/to/your/channel52.jpg" alt="Nome do Canal 52">
+                <div class="channel-info">
+                    <h2>Nome do Canal 52</h2>
+                    <p>Descrição breve do canal 52</p>
+                </div>
+            </a>
+            <a href="channel53.html" class="channel">
+                <img src="path/to/your/channel53.jpg" alt="Nome do Canal 53">
+                <div class="channel-info">
+                    <h2>Nome do Canal 53</h2>
+                    <p>Descrição breve do canal 53</p>
+                </div>
+            </a>
+            <a href="channel54.html" class="channel">
+                <img src="path/to/your/channel54.jpg" alt="Nome do Canal 54">
+                <div class="channel-info">
+                    <h2>Nome do Canal 54</h2>
+                    <p>Descrição breve do canal 54</p>
+                </div>
+            </a>
+            <a href="channel55.html" class="channel">
+                <img src="path/to/your/channel55.jpg" alt="Nome do Canal 55">
+                <div class="channel-info">
+                    <h2>Nome do Canal 55</h2>
+                    <p>Descrição breve do canal 55</p>
+                </div>
+            </a>
+            <a href="channel56.html" class="channel">
+                <img src="path/to/your/channel56.jpg" alt="Nome do Canal 56">
+                <div class="channel-info">
+                    <h2>Nome do Canal 56</h2>
+                    <p>Descrição breve do canal 56</p>
+                </div>
+            </a>
+            <a href="channel57.html" class="channel">
+                <img src="path/to/your/channel57.jpg" alt="Nome do Canal 57">
+                <div class="channel-info">
+                    <h2>Nome do Canal 57</h2>
+                    <p>Descrição breve do canal 57</p>
+                </div>
+            </a>
+            <a href="channel58.html" class="channel">
+                <img src="path/to/your/channel58.jpg" alt="Nome do Canal 58">
+                <div class="channel-info">
+                    <h2>Nome do Canal 58</h2>
+                    <p>Descrição breve do canal 58</p>
+                </div>
+            </a>
+            <a href="channel59.html" class="channel">
+                <img src="path/to/your/channel59.jpg" alt="Nome do Canal 59">
+                <div class="channel-info">
+                    <h2>Nome do Canal 59</h2>
+                    <p>Descrição breve do canal 59</p>
+                </div>
+            </a>
+            <a href="channel60.html" class="channel">
+                <img src="path/to/your/channel60.jpg" alt="Nome do Canal 60">
+                <div class="channel-info">
+                    <h2>Nome do Canal 60</h2>
+                    <p>Descrição breve do canal 60</p>
+                </div>
+            </a>
+            <a href="channel61.html" class="channel">
+                <img src="path/to/your/channel61.jpg" alt="Nome do Canal 61">
+                <div class="channel-info">
+                    <h2>Nome do Canal 61</h2>
+                    <p>Descrição breve do canal 61</p>
+                </div>
+            </a>
+            <a href="channel62.html" class="channel">
+                <img src="path/to/your/channel62.jpg" alt="Nome do Canal 62">
+                <div class="channel-info">
+                    <h2>Nome do Canal 62</h2>
+                    <p>Descrição breve do canal 62</p>
+                </div>
+            </a>
+            <a href="channel63.html" class="channel">
+                <img src="path/to/your/channel63.jpg" alt="Nome do Canal 63">
+                <div class="channel-info">
+                    <h2>Nome do Canal 63</h2>
+                    <p>Descrição breve do canal 63</p>
+                </div>
+            </a>
+            <a href="channel64.html" class="channel">
+                <img src="path/to/your/channel64.jpg" alt="Nome do Canal 64">
+                <div class="channel-info">
+                    <h2>Nome do Canal 64</h2>
+                    <p>Descrição breve do canal 64</p>
+                </div>
+            </a>
+            <a href="channel65.html" class="channel">
+                <img src="path/to/your/channel65.jpg" alt="Nome do Canal 65">
+                <div class="channel-info">
+                    <h2>Nome do Canal 65</h2>
+                    <p>Descrição breve do canal 65</p>
+                </div>
+            </a>
+            <a href="channel66.html" class="channel">
+                <img src="path/to/your/channel66.jpg" alt="Nome do Canal 66">
+                <div class="channel-info">
+                    <h2>Nome do Canal 66</h2>
+                    <p>Descrição breve do canal 66</p>
+                </div>
+            </a>
+            <a href="channel67.html" class="channel">
+                <img src="path/to/your/channel67.jpg" alt="Nome do Canal 67">
+                <div class="channel-info">
+                    <h2>Nome do Canal 67</h2>
+                    <p>Descrição breve do canal 67</p>
+                </div>
+            </a>
+            <a href="channel68.html" class="channel">
+                <img src="path/to/your/channel68.jpg" alt="Nome do Canal 68">
+                <div class="channel-info">
+                    <h2>Nome do Canal 68</h2>
+                    <p>Descrição breve do canal 68</p>
+                </div>
+            </a>
+            <a href="channel69.html" class="channel">
+                <img src="path/to/your/channel69.jpg" alt="Nome do Canal 69">
+                <div class="channel-info">
+                    <h2>Nome do Canal 69</h2>
+                    <p>Descrição breve do canal 69</p>
+                </div>
+            </a>
+            <a href="channel70.html" class="channel">
+                <img src="path/to/your/channel70.jpg" alt="Nome do Canal 70">
+                <div class="channel-info">
+                    <h2>Nome do Canal 70</h2>
+                    <p>Descrição breve do canal 70</p>
+                </div>
+            </a>
+            <a href="channel71.html" class="channel">
+                <img src="path/to/your/channel71.jpg" alt="Nome do Canal 71">
+                <div class="channel-info">
+                    <h2>Nome do Canal 71</h2>
+                    <p>Descrição breve do canal 71</p>
+                </div>
+            </a>
+            <a href="channel72.html" class="channel">
+                <img src="path/to/your/channel72.jpg" alt="Nome do Canal 72">
+                <div class="channel-info">
+                    <h2>Nome do Canal 72</h2>
+                    <p>Descrição breve do canal 72</p>
+                </div>
+            </a>
+            <a href="channel73.html" class="channel">
+                <img src="path/to/your/channel73.jpg" alt="Nome do Canal 73">
+                <div class="channel-info">
+                    <h2>Nome do Canal 73</h2>
+                    <p>Descrição breve do canal 73</p>
+                </div>
+            </a>
+            <a href="channel74.html" class="channel">
+                <img src="path/to/your/channel74.jpg" alt="Nome do Canal 74">
+                <div class="channel-info">
+                    <h2>Nome do Canal 74</h2>
+                    <p>Descrição breve do canal 74</p>
+                </div>
+            </a>
+            <a href="channel75.html" class="channel">
+                <img src="path/to/your/channel75.jpg" alt="Nome do Canal 75">
+                <div class="channel-info">
+                    <h2>Nome do Canal 75</h2>
+                    <p>Descrição breve do canal 75</p>
+                </div>
+            </a>
+            <a href="channel76.html" class="channel">
+                <img src="path/to/your/channel76.jpg" alt="Nome do Canal 76">
+                <div class="channel-info">
+                    <h2>Nome do Canal 76</h2>
+                    <p>Descrição breve do canal 76</p>
+                </div>
+            </a>
+            <a href="channel77.html" class="channel">
+                <img src="path/to/your/channel77.jpg" alt="Nome do Canal 77">
+                <div class="channel-info">
+                    <h2>Nome do Canal 77</h2>
+                    <p>Descrição breve do canal 77</p>
+                </div>
+            </a>
+            <a href="channel78.html" class="channel">
+                <img src="path/to/your/channel78.jpg" alt="Nome do Canal 78">
+                <div class="channel-info">
+                    <h2>Nome do Canal 78</h2>
+                    <p>Descrição breve do canal 78</p>
+                </div>
+            </a>
+            <a href="channel79.html" class="channel">
+                <img src="path/to/your/channel79.jpg" alt="Nome do Canal 79">
+                <div class="channel-info">
+                    <h2>Nome do Canal 79</h2>
+                    <p>Descrição breve do canal 79</p>
+                </div>
+            </a>
+            <a href="channel80.html" class="channel">
+                <img src="path/to/your/channel80.jpg" alt="Nome do Canal 80">
+                <div class="channel-info">
+                    <h2>Nome do Canal 80</h2>
+                    <p>Descrição breve do canal 80</p>
+                </div>
+            </a>
+            <a href="channel81.html" class="channel">
+                <img src="path/to/your/channel81.jpg" alt="Nome do Canal 81">
+                <div class="channel-info">
+                    <h2>Nome do Canal 81</h2>
+                    <p>Descrição breve do canal 81</p>
+                </div>
+            </a>
+            <a href="channel82.html" class="channel">
+                <img src="path/to/your/channel82.jpg" alt="Nome do Canal 82">
+                <div class="channel-info">
+                    <h2>Nome do Canal 82</h2>
+                    <p>Descrição breve do canal 82</p>
+                </div>
+            </a>
+            <a href="channel83.html" class="channel">
+                <img src="path/to/your/channel83.jpg" alt="Nome do Canal 83">
+                <div class="channel-info">
+                    <h2>Nome do Canal 83</h2>
+                    <p>Descrição breve do canal 83</p>
+                </div>
+            </a>
+            <a href="channel84.html" class="channel">
+                <img src="path/to/your/channel84.jpg" alt="Nome do Canal 84">
+                <div class="channel-info">
+                    <h2>Nome do Canal 84</h2>
+                    <p>Descrição breve do canal 84</p>
+                </div>
+            </a>
+            <a href="channel85.html" class="channel">
+                <img src="path/to/your/channel85.jpg" alt="Nome do Canal 85">
+                <div class="channel-info">
+                    <h2>Nome do Canal 85</h2>
+                    <p>Descrição breve do canal 85</p>
+                </div>
+            </a>
+            <a href="channel86.html" class="channel">
+                <img src="path/to/your/channel86.jpg" alt="Nome do Canal 86">
+                <div class="channel-info">
+                    <h2>Nome do Canal 86</h2>
+                    <p>Descrição breve do canal 86</p>
+                </div>
+            </a>
+            <a href="channel87.html" class="channel">
+                <img src="path/to/your/channel87.jpg" alt="Nome do Canal 87">
+                <div class="channel-info">
+                    <h2>Nome do Canal 87</h2>
+                    <p>Descrição breve do canal 87</p>
+                </div>
+            </a>
+            <a href="channel88.html" class="channel">
+                <img src="path/to/your/channel88.jpg" alt="Nome do Canal 88">
+                <div class="channel-info">
+                    <h2>Nome do Canal 88</h2>
+                    <p>Descrição breve do canal 88</p>
+                </div>
+            </a>
+            <a href="channel89.html" class="channel">
+                <img src="path/to/your/channel89.jpg" alt="Nome do Canal 89">
+                <div class="channel-info">
+                    <h2>Nome do Canal 89</h2>
+                    <p>Descrição breve do canal 89</p>
+                </div>
+            </a>
+            <a href="channel90.html" class="channel">
+                <img src="path/to/your/channel90.jpg" alt="Nome do Canal 90">
+                <div class="channel-info">
+                    <h2>Nome do Canal 90</h2>
+                    <p>Descrição breve do canal 90</p>
+                </div>
+            </a>
+            <a href="channel91.html" class="channel">
+                <img src="path/to/your/channel91.jpg" alt="Nome do Canal 91">
+                <div class="channel-info">
+                    <h2>Nome do Canal 91</h2>
+                    <p>Descrição breve do canal 91</p>
+                </div>
+            </a>
+            <a href="channel92.html" class="channel">
+                <img src="path/to/your/channel92.jpg" alt="Nome do Canal 92">
+                <div class="channel-info">
+                    <h2>Nome do Canal 92</h2>
+                    <p>Descrição breve do canal 92</p>
+                </div>
+            </a>
+            <a href="channel93.html" class="channel">
+                <img src="path/to/your/channel93.jpg" alt="Nome do Canal 93">
+                <div class="channel-info">
+                    <h2>Nome do Canal 93</h2>
+                    <p>Descrição breve do canal 93</p>
+                </div>
+            </a>
+            <a href="channel94.html" class="channel">
+                <img src="path/to/your/channel94.jpg" alt="Nome do Canal 94">
+                <div class="channel-info">
+                    <h2>Nome do Canal 94</h2>
+                    <p>Descrição breve do canal 94</p>
+                </div>
+            </a>
+            <a href="channel95.html" class="channel">
+                <img src="path/to/your/channel95.jpg" alt="Nome do Canal 95">
+                <div class="channel-info">
+                    <h2>Nome do Canal 95</h2>
+                    <p>Descrição breve do canal 95</p>
+                </div>
+            </a>
+            <a href="channel96.html" class="channel">
+                <img src="path/to/your/channel96.jpg" alt="Nome do Canal 96">
+                <div class="channel-info">
+                    <h2>Nome do Canal 96</h2>
+                    <p>Descrição breve do canal 96</p>
+                </div>
+            </a>
+            <a href="channel97.html" class="channel">
+                <img src="path/to/your/channel97.jpg" alt="Nome do Canal 97">
+                <div class="channel-info">
+                    <h2>Nome do Canal 97</h2>
+                    <p>Descrição breve do canal 97</p>
+                </div>
+            </a>
+            <a href="channel98.html" class="channel">
+                <img src="path/to/your/channel98.jpg" alt="Nome do Canal 98">
+                <div class="channel-info">
+                    <h2>Nome do Canal 98</h2>
+                    <p>Descrição breve do canal 98</p>
+                </div>
+            </a>
+            <a href="channel99.html" class="channel">
+                <img src="path/to/your/channel99.jpg" alt="Nome do Canal 99">
+                <div class="channel-info">
+                    <h2>Nome do Canal 99</h2>
+                    <p>Descrição breve do canal 99</p>
+                </div>
+            </a>
+            <a href="channel100.html" class="channel">
+                <img src="path/to/your/channel100.jpg" alt="Nome do Canal 100">
+                <div class="channel-info">
+                    <h2>Nome do Canal 100</h2>
+                    <p>Descrição breve do canal 100</p>
+                </div>
+            </a>
+        </div>
+    </div>
+</body>
+</html>
